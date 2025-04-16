@@ -18,12 +18,12 @@
             <?php endforeach; ?>
         </tbody>
     </table>
-    <h5 class="mt-4">+ Barang Baru</h5>
+    <h5 class="mt-4">Tambah Barang Baru</h5>
     <form action="<?= base_url('barang/tambah_barang'); ?>" method="post">
         <input type="text" name="nama_barang" class="form-control mb-2" placeholder="Nama Barang" required>
         <input type="number" name="stok" class="form-control mb-2" placeholder="Stok Awal" min="0" required>
         <input type="text" name="satuan" class="form-control mb-2" placeholder="Satuan (pcs, box, dll)" required>
-        <button type="submit" class="btn btn-info">Tambah Barang Baru</button>
+        <button type="submit" class="btn btn-info">+ Barang Baru</button>
     </form>
 
     <hr>
