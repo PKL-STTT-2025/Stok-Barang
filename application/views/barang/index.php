@@ -1,5 +1,5 @@
 <div class="container mt-4">
-    <h2>Data Stok Barang</h2>
+    <h2>List Stok Barang</h2>
     <table class="table table-bordered table-striped">
         <thead>
             <tr>
